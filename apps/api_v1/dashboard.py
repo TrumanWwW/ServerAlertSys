@@ -22,9 +22,9 @@ def get_dashboard_server_list():
     _list = []
     for server in servers:
         state = server.servers.state
-        loadIn1Min = LatestServerInfo.query.filter_by(server_id=server.servers.id).first()
-        if loadIn1Min and state:
-            state = 'highLoad' if int(loadIn1Min.loadIn1Min) > 50 else state
+        latest_ser = LatestServerInfo.query.filter_by(server_id=server.servers.id).first()
+        if latest_ser and state:
+            state = 'highLoad' if int(latest_ser.cpu_rate) > 50 else state
 
         _list.append({
             'state': state,

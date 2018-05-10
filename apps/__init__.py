@@ -75,6 +75,8 @@ def create_app(config_name):
     # from .server_listener import ServerListener
     # ServerListener.run()
     # executor.submit(ServerListener.run)
+    from apps.utils import get_server_info
+    get_server_info.run()
     # 创建Session, 将session数据从以前默认的cookie, 存放到redis中
     # http://pythonhosted.org/Flask-Session/ 教程
     # 这里需要返回APP对象，和db
