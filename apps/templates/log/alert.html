@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {{ super() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='third_party/bootstrap_table/bootstrap-table.css') }}">
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.css') }}">
+    {#        <link rel="stylesheet" href="{{ url_for('static', filename='third_party/layui/css/layui.css') }}">#}
+{% endblock %}
+
+
+{% block page_content %}
+    <h2>告警日志</h2>
+    <hr class="hr">
+
+    <div class="panel-body" style="padding:0;">
+        <div id="toolbar" class="">
+            <select name="" id="" class="form-control">
+                <option value>- 按类型查找 -</option>
+                <option value="内存">内存</option>
+                <option value="磁盘">磁盘</option>
+                <option value="CPU">CPU</option>
+            </select>
+        </div>
+        <table id="table"></table>
+    </div>
+
+
+
+{% endblock %}
+
+
+{% block scripts %}
+    {{ super() }}
+    {#bootstrap_table#}
+    <script src="{{ url_for('static', filename='third_party/bootstrap_table/bootstrap-table.js') }}"></script>
+    <script src="{{ url_for('static', filename='third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js') }}"></script>
+    <script src="{{ url_for('static', filename='third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/log/alert.js') }}"></script>
+{% endblock %}

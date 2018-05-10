@@ -1,0 +1,41 @@
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.dis_pos, .toast-top-right {
+    margin-top: 3em;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    background-color: #333;
+}
+
+.btn-listen-success {
+    background-color: forestgreen;
+}
+
+/*
+     滚动条
+            */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar-corner {
+    background-color: #f1f1f1;
+    -webkit-border-radius: 1px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #E7E7E7;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    -webkit-border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #F6F6F6;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+}
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(128, 128, 128, 0.15);
+    -webkit-border-radius: 5px;
+}

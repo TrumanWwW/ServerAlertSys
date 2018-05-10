@@ -1,0 +1,117 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}服务器安全监测系统{% endblock %}
+
+{#css#}
+{% block head %}
+    {{ super() }}
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/public.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='third_party/toast/toastr.min.css') }}">
+{% endblock %}
+
+{#导航栏#}
+{% block navbar %}
+    <div class="navbar navbar-inverse" role="navigation" style="margin-bottom: 0;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle"
+                        data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">服务器安全监测系统</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/index" style="color: white;">服务器安全监测系统</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="/index">概览</a></li>
+                </ul>
+                <ul class="nav navbar-nav dropdown">
+                    <li class="dropdown-toggle" data-toggle="dropdown">
+                        <a href="javascript:;">配置<span class="caret"></span></a>
+                    </li>
+                    <ul class="dropdown-menu" role="menu">
+                        <li role="presentation">
+                            <a role="menuitem" href="/config/server">服务器配置</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" href="/config/alert">告警配置</a>
+                        </li>
+                    </ul>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li><a href="/users">用户管理</a></li>
+                </ul>
+                <ul class="nav navbar-nav dropdown">
+                    <li class="dropdown-toggle" data-toggle="dropdown">
+                        <a href="javascript:;">日志<span class="caret"></span></a>
+                    </li>
+                    <ul class="dropdown-menu" role="menu">
+                        <li role="presentation">
+                            <a role="menuitem" href="/log/operation">操作日志</a>
+                        </li>
+                        <li role="presentation">
+                            <a role="menuitem" href="/log/alert">告警日志</a>
+                        </li>
+                    </ul>
+                </ul>
+                <ul class="nav-a nav navbar-nav navbar-right pull-right" style="margin: 0">
+                    {% if current_user.is_authenticated %}
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                {% if current_user.is_authenticated %}
+                                    <i class="glyphicon glyphicon-user"></i>&nbsp;{{ current_user.name }}
+                                {% endif %} <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:;">账号信息</a></li>
+                                <li><a href="javascript:;">修改密码</a></li>
+                                <li><a href="{{ url_for('auth.logout') }}">注销</a></li>
+                            </ul>
+                        </li>
+                    {% endif %}
+                </ul>
+
+            </div>
+        </div>
+    </div>
+{% endblock navbar %}
+
+{#内容#}
+<!--content-->
+{% block content %}
+    <div class="container">
+        {% include 'macro_alert.html' %}
+        {% block page_content %}{% endblock %}
+    </div>
+
+
+    <div id="common_confirm_model" class="modal fade">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span
+                            aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h5 class="modal-title"><i class="fa fa-exclamation-circle"></i> <span class="title"></span></h5>
+                </div>
+                <div class="modal-body small">
+                    <p style="margin: 0;"><span class="message"></span></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary ok" data-dismiss="modal">确认</button>
+                    <button type="button" class="btn btn-default cancel" data-dismiss="modal">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{#js#}
+{% block scripts %}
+    {{ super() }}
+    <script src="{{ url_for('static', filename='third_party/toast/toastr.min.js') }}"></script>
+    {#    <script src="{{ url_for('static', filename='third_party/bootstrap-confirmation/bootstrap-confirmation.js') }}"></script>#}
+    <script src="{{ url_for('static', filename='js/public.js') }}"></script>
+{% endblock %}

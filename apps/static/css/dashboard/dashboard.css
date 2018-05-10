@@ -1,0 +1,51 @@
+.server_list p{
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.server_list div {
+    user-select: none;
+    display: inline-block;
+    padding: 5px;
+    color: rgb(128, 128, 128);
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.server_list div:not(:first-child) {
+    margin-left: 2rem;
+}
+.server_list div:hover,.server_list div.active {
+    opacity: 1 !important;
+    transition: 300ms;
+}
+.server_list svg {
+    width: 40px;
+    height: 40px;
+    fill: currentColor;
+}
+@-webkit-keyframes shine {
+    0% {
+        opacity: 0.6
+    }
+    50% {
+        opacity: 1
+    }
+}
+.free svg {
+    color: rgb(0, 194, 0) !important;
+    animation: shine 1s ease-in-out infinite alternate;
+}
+.urge svg {
+    color: rgb(218, 0, 0) !important;
+    animation: shine 0.3s ease-in-out infinite alternate;
+}
+/*-----------------------*/
+.dashboard{
+    border: 1px solid #b2b2b2;
+    height:300px;
+    border-radius: 5px;
+}
+

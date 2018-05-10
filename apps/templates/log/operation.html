@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {{ super() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='third_party/bootstrap_table/bootstrap-table.css') }}">
+    {#        <link rel="stylesheet" href="{{ url_for('static', filename='third_party/layui/css/layui.css') }}">#}
+{% endblock %}
+
+
+{% block page_content %}
+    <h2>操作日志</h2>
+    <hr class="hr">
+
+    <div class="panel-body" style="padding:0;">
+        {#        {% include 'macro_form_toolbar.html' %}#}
+        <div id="toolbar" class="">
+            <select name="" id="" class="form-control">
+                <option value>- 按模块查找 -</option>
+                <option value="配置">配置</option>
+                <option value="用户">用户</option>
+            </select>
+        </div>
+        <table id="table"></table>
+    </div>
+
+
+
+{% endblock %}
+
+
+{% block scripts %}
+    {{ super() }}
+    {#bootstrap_table#}
+    <script src="{{ url_for('static', filename='third_party/bootstrap_table/bootstrap-table.js') }}"></script>
+    <script src="{{ url_for('static', filename='third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/log/operation.js') }}"></script>
+{% endblock %}

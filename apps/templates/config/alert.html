@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {{ super() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='third_party/bootstrap_table/bootstrap-table.css') }}">
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='third_party/bootstrap-editable/bootstrap-editable.css') }}">
+    {#        <link rel="stylesheet" href="{{ url_for('static', filename='third_party/layui/css/layui.css') }}">#}
+{% endblock %}
+
+
+{% block page_content %}
+    <h2>告警配置</h2>
+    <hr class="hr">
+
+    <div class="panel-body" style="padding:0;">
+        <div id="toolbar" class="btn-group">
+            <button id="btn_delete" type="button" class="btn btn-default" onclick="del()" data-toggle="modal"
+                    data-target="#common_confirm_model">
+                <span class="glyphicon glyphicon-remove btn_rm" aria-hidden="true"></span>批量删除
+            </button>
+        </div>
+        <table id="table"></table>
+    </div>
+
+
+
+
+{% endblock %}
+
+
+{% block scripts %}
+    {{ super() }}
+    {#bootstrap_table#}
+    <script src="{{ url_for('static', filename='third_party/bootstrap_table/bootstrap-table.js') }}"></script>
+    <script src="{{ url_for('static', filename='third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js') }}"></script>
+    <script src="{{ url_for('static', filename='third_party/bootstrap-editable/bootstrap-editable.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='third_party/bootstrap-editable/bootstrap-table-editable.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/config/config_alert.js') }}"></script>
+{% endblock %}

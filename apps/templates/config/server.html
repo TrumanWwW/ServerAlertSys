@@ -1,0 +1,158 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {{ super() }}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='third_party/bootstrap_table/bootstrap-table.css') }}">
+{#        <link rel="stylesheet" href="{{ url_for('static', filename='third_party/layui/css/layui.css') }}">#}
+{% endblock %}
+
+
+{% block page_content %}
+    <h2>服务器配置</h2>
+    <hr class="hr">
+
+    <div class="panel-body" style="padding:0;">
+        {% include 'macro_form_toolbar.html' %}
+        <table id="table"></table>
+    </div>
+    {# 模态框modal #}
+    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">新增服务器</h4>
+                </div>
+                <form method='post' role="form">
+                    <div class="modal-body">
+                        {{ form1.hidden_tag() }}
+                        <div class="form-group clearfix">
+                            <label for="form1name" class="col-md-3 text-right control-label">服务器名:</label>
+                            <div class="col-md-9">
+                                {{ form1.name(id='form1name',class='form-control', placeholder="服务器名", required=True, autofocus="autofocus") }}
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="form1ip" class="col-md-3 text-right control-label">IP地址:</label>
+                            <div class="col-md-9">
+                            {{ form1.ip(id='form1ip',class='form-control', placeholder="IP地址", required=True) }}
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="form1port" class="col-md-3 text-right control-label">端口号:</label>
+                            <div class="col-md-9">
+                            {{ form1.port(id='form1port',class='form-control', placeholder="端口号", required=True) }}
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="form1os" class="col-md-3 text-right control-label">操作系统信息:</label>
+                            <div class="col-md-9">
+                            {{ form1.os(id='form1os',class='form-control', placeholder="操作系统信息", required=False) }}
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="form1ssh_u" class="col-md-3 text-right control-label">SSH账户:</label>
+                            <div class="col-md-9">
+                            {{ form1.ssh_u(id='form1ssh_u',class='form-control', placeholder="SSH账户", required=True) }}
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="form1ssh_p" class="col-md-3 text-right control-label">SSH密码:</label>
+                            <div class="col-md-9">
+                            {{ form1.ssh_p(id='form1ssh_p',class='form-control', placeholder="SSH密码", required=True) }}
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="form2desc" class="col-md-3 text-right control-label">备注信息:</label>
+                            <div class="col-md-9">
+                            {{ form1.desc(id='form2desc',class='form-control', placeholder="备注信息", required=False) }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        {{ form1.submit(class="btn btn-primary") }}
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    </div>
+                </form>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">更改信息</h4>
+                </div>
+                <form method='post' role="form">
+                    <div class="modal-body">
+                        {{ form1.hidden_tag() }}
+                        <input type="hidden" name="s_id">
+                        <div class="form-group clearfix">
+                            <label for="form2name" class="col-md-3 text-right control-label">服务器名:</label>
+                            <div class="col-md-9">
+                                {{ form1.name(id='form2name',class='form-control', placeholder="服务器名", required=True, autofocus="autofocus") }}
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="form2ip" class="col-md-3 text-right control-label">IP地址:</label>
+                            <div class="col-md-9">
+                            {{ form1.ip(id='form2ip',class='form-control', placeholder="IP地址", required=True) }}
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="form2port" class="col-md-3 text-right control-label">端口号:</label>
+                            <div class="col-md-9">
+                            {{ form1.port(id='form2port',class='form-control', placeholder="端口号", required=True) }}
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="form2os" class="col-md-3 text-right control-label">操作系统信息:</label>
+                            <div class="col-md-9">
+                            {{ form1.os(id='form2os',class='form-control', placeholder="操作系统信息", required=False) }}
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="form2ssh_u" class="col-md-3 text-right control-label">SSH账户:</label>
+                            <div class="col-md-9">
+                            {{ form1.ssh_u(id='form2ssh_u',class='form-control', placeholder="SSH账户", required=True) }}
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="form2ssh_p" class="col-md-3 text-right control-label">SSH密码:</label>
+                            <div class="col-md-9">
+                            {{ form1.ssh_p(id='form2ssh_p',class='form-control', placeholder="SSH密码", required=True) }}
+                            </div>
+                        </div>
+                        <div class="form-group clearfix">
+                            <label for="form1desc" class="col-md-3 text-right control-label">备注信息:</label>
+                            <div class="col-md-9">
+                            {{ form1.desc(id='form1desc',class='form-control', placeholder="备注信息", required=False) }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        {{ form1.submit(class="btn btn-primary") }}
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    </div>
+                </form>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+    </div>
+{##}
+
+
+
+
+{% endblock %}
+
+
+{% block scripts %}
+    {{ super() }}
+    {#bootstrap_table#}
+    <script src="{{ url_for('static', filename='third_party/bootstrap_table/bootstrap-table.js') }}"></script>
+    <script src="{{ url_for('static', filename='third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/config/config_server.js') }}"></script>
+{% endblock %}
