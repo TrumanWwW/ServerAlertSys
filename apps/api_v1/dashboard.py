@@ -24,7 +24,7 @@ def get_dashboard_server_list():
         state = server.servers.state
         latest_ser = LatestServerInfo.query.filter_by(server_id=server.servers.id).first()
         if latest_ser and state:
-            state = 'highLoad' if int(latest_ser.cpu_rate) > 50 else state
+            state = 'highLoad' if latest_ser.cpu_rate != '--' and float(latest_ser.cpu_rate) > 50 else state
 
         _list.append({
             'state': state,
@@ -36,9 +36,11 @@ def get_dashboard_server_list():
     return jsonify(_list)
 
 
-@api.route('/dashboard/server/<int:s_id>', methods=['GET'])
+@api.route('/dashboard/server/<string:s_id>', methods=['GET'])
 def get_dashboard_server_info(s_id):
-    server = LatestServerInfo.query.filter_by(server_id=s_id).first()
-    info = server.to_dict()
+    if s_id == 'undefined':
+        return jsonify({'warning': '未设置监听或不存在该服务器!'})
+    server = LatestServerInfo.query.filter_by(server_id=int(s_id)).first()
+    info = server.to_dict() if server else dict()
     info['timeStamp'] = int(time.time() * 1000)  # 时间戳
     return jsonify(info)

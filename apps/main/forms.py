@@ -36,6 +36,6 @@ class AddServerForm(FlaskForm):
     ssh_p = StringField(u'SSH密码',
                         validators=[DataRequired(message=u'SSH密码不为空')])
     desc = StringField(u'备注',
-                       validators=[Length(1, 12, message=u'备注长度在1到128之间')])
+                       validators=[Length(0, 12, message=u'备注长度在0到12之间')])
 
     submit = SubmitField(u'提交')

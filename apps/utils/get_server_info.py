@@ -1,25 +1,16 @@
 # -*- coding: utf-8 -*-
-# 服务器信息的获取，信息概览接口实现
+# 循环依次查询服务器列表中服务器，保存实时信息，并做阈值判断，输出告警
 # import logging
 from threading import Timer
 
 import paramiko
 import re
 
-# from . import api
-# from apps.models import ServerInfo
-
-from flask_login import current_user
-
 from apps import db, create_app
-from apps.models import ServerInfo, ServerThreshold, User
+from apps.models import ServerInfo, LatestServerInfo
 
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-
-'''
-    结果 可以直接显示在界面上，客户端 5秒刷新一下
-'''
 
 
 # 操作服务器，获取各种参数
@@ -27,20 +18,6 @@ class Tool(object):
     def __init__(self):
 
         self.host_list = []
-
-        # self.host_list = [
-        #     {
-        #         'ip': '192.168.120.204',
-        #         'port': 22,
-        #         'username': 'admin',
-        #         'password': '1'
-        #     }, {
-        #         'ip': '192.168.110.80',
-        #         'port': 22,
-        #         'username': 'root',
-        #         'password': '123456'
-        #     }
-        # ]
 
     @staticmethod
     def con_ssh(ip, port, username, password):
@@ -51,9 +28,10 @@ class Tool(object):
         ssh.close()
 
     def get_data(self):
-
+        """脚本检测所有服务器信息并存入数据库"""
         # 查询数据库表server_info
         servers = ServerInfo.query.all()  # 查询到一个包含所有服务器信息的list
+
         for i in servers:
             info = {
                 'id': i.id,
@@ -63,8 +41,6 @@ class Tool(object):
                 'password': i.ssh_password
             }
             self.host_list.append(info)
-
-        server_info = list()  # 返回前端数据列表
         for host in self.host_list:
             # 尝试访问服务器
             try:
@@ -72,19 +48,27 @@ class Tool(object):
 
             # 服务器访问超时或者异常
             except Exception as e:
-                # logging.info('服务器:' + str(host['ip']) + "访问失败")
-                info = {
-                    # 'id': host['id'],
-                    # TODO(wangcheng):实现脚本检测所有服务器信息并存入数据库
-                    'ip': host['ip'],
-                    'port': host['port'],
-                    'username': host['username'],
-                    'password': host['password'],
-                    'status': '连接失败'
+
+                default_set = {
+                    'cpu_rate': '--',
+                    'mem_total': '--',
+                    'mem_free': '--',
+                    'mem_used_rate': '--',
+                    'disk_total': '--',
+                    'disk_size': '--',
+                    'disk_used_rate': '--',
+                    'loadIn1Min': '--',
+                    'loadIn5Min': '--',
+                    'loadIn10Min': '--',
+                    'server_id': host['id']
                 }
-                server_info.append({
-                    'info': info
-                })
+                latest = LatestServerInfo.query.filter_by(server_id=host['id']).first()
+                if latest:
+                    for k, v in default_set.items():
+                        setattr(latest, k, v)
+                else:
+                    db.session.add(LatestServerInfo(**default_set))
+                db.session.commit()
             # 服务器访问正常
             else:
                 # 执行内存查看指令
@@ -131,91 +115,58 @@ class Tool(object):
                     return load_menu_err
 
                 # self.close_ssh()
-
                 # 内存
-                # print(mem_menu_out)
-                # 物理内存
                 total_mem = re.search('MemTotal:\s*(\d*).*?\n', mem_menu_out).group(1)
                 free_mem = re.search('MemFree:\s*(\d*).*?\n', mem_menu_out).group(1)
                 mem_used_rate = round((int(total_mem) - int(free_mem)) / int(total_mem) * 100, 1)
-                # 虚拟内存
-                # v_total_mem = re.search('VmallocTotal:\s*(\d*).*?\n', mem_menu_out).group(1)
-                # v_used_mem = re.search('VmallocUsed:\s*(\d*).*?\n', mem_menu_out).group(1)
-                # v_mem_used_rate = round(int(v_used_mem) / int(v_total_mem) * 100, 1)
-                mem = {
-                    'mem_total': round(int(total_mem) / 1024 / 1024, 2),
-                    'mem_used': round((int(total_mem) - int(free_mem)) / 1024 / 1024, 2),
-                    'mem_rate': mem_used_rate
-                }
-                # vmem = {
-                #     'vmem_total': round(int(v_total_mem) / 1024 / 1024, 2),
-                #     'vmem_used': round(int(v_used_mem) / 1024 / 1024, 2),
-                #     'vmem_rate': v_mem_used_rate
-                # }
-                # print(mem)
-                # print(vmem)
 
                 # CPU
-                # print(cpu_menu_out2)
-                # cpu_model = re.search(r'Model name:\s*(.*?)\n', cpu_menu_out).group(1)
+                # 'cpu_rate': '68.84'
                 cpu_free = re.search(r'Average:\s*(.*?)\n', cpu_menu_out2).group(1)
                 cpu_free = re.split('\s+', cpu_free)[-1]
-                cpu = {
-                    # 'cpu_model': cpu_model,
-                    'cpu_free': cpu_free
-                }
-                # print(cpu)
 
                 # 磁盘
-                # print(disk_menu_out)
+                # 'disk_used': '6.3G', 'disk_size': '76G', 'disk_use': '9%'
                 disk_line = re.split(r'\n', disk_menu_out)[-2]
                 disk_line_list = re.split('\s+', disk_line)
-                disk = {
-                    'disk_used': disk_line_list[2],
-                    'disk_size': disk_line_list[1],
-                    'disk_use': disk_line_list[-2]
-                }
-                # print(disk)
 
                 # 服务器负载
                 # print(load_menu_out)
                 load = re.search(r'load average:\s*(.*)\s*\n', load_menu_out).group(1)
                 load = re.split(r'\s*,\s*', load)
-                load = {
+
+                default_set = {
+                    'cpu_rate': cpu_free,
+                    'mem_total': round(int(total_mem) / 1024 / 1024, 2),
+                    'mem_free': round(int(free_mem) / 1024 / 1024, 2),
+                    'mem_used_rate': mem_used_rate,
+                    'disk_total': disk_line_list[1],
+                    'disk_size': disk_line_list[2],
+                    # 'disk_used_rate': disk_line_list[-2][:-1],
+                    'disk_used_rate': round(float(disk_line_list[2][:-1]) / float(disk_line_list[1][:-1]) * 100, 2),
                     'loadIn1Min': load[0],
-                    'loadIn10Min': load[1],
-                    'loadIn15Min': load[2]
+                    'loadIn5Min': load[1],
+                    'loadIn10Min': load[2],
+                    'server_id': host['id']
                 }
-                # print(load)
-                # 服务器信息
-                # info = {
-                #     # 'id': host['id'],
-                #     'ip': host['ip'],
-                #     'port': host['port'],
-                #     'username': host['username'],
-                #     'password': host['password'],
-                #     'status': '在线'
-                # }
-                server_info.append({
-                    'mem': mem,
-                    'cpu': cpu,
-                    'disk': disk,
-                    'load': load,
-                    # 'vmem': vmem,
-                    # 'info': info
-                })
-        # [{'mem': {'mem_total': 1.81, 'mem_used': 1.64, 'mem_rate': 90.4}, 'cpu': {'cpu_model': 'Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz', 'cpu_free': '63.04'}, 'disk': {'disk_used': '5.2G', 'disk_size': '76G', 'disk_use': '7%'}, 'load': {'loadIn1Min': '0.08', 'loadIn10Min': '0.08', 'loadIn15Min': '0.06'}, 'vmem': {'vmem_total': 32768.0, 'vmem_used': 0.16, 'vmem_rate': 0.0}, 'info': {'ip': '192.168.120.204', 'port': 22, 'username': 'admin', 'password': '1', 'status': '在线'}},
-        # {'info': {'ip': '192.168.110.80', 'port': 22, 'username': 'root', 'password': '123456', 'status': '连接失败'}}]
-        # print(server_info)
-        return server_info
+                latest = LatestServerInfo.query.filter_by(server_id=host['id']).first()
+                if latest:
+                    for k, v in default_set.items():
+                        setattr(latest, k, v)
+                else:
+                    db.session.add(LatestServerInfo(**default_set))
+                db.session.commit()
+
 
 def fn():
+    app = create_app('develop')
     tool = Tool()
-    data = tool.get_data()
-    print(data)
+    tool.get_data()
+
 
 def run():
-    Timer(300,fn ).start()
+    Timer(3, fn).start()
+
 
 if __name__ == '__main__':
     tool = Tool()

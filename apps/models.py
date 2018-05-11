@@ -208,16 +208,8 @@ class ServerInfo(BaseModel, db.Model):
     def __repr__(self):
         str = """
         ServerInfo类
-        Server_Info表
-        包含字段：
-        id
-        name 
-        server_ip
-        server_port 
-        server_os 
-        server_desc
-        ssh_name
-        """
+        id:{id}
+        """.format(id=self.id)
         return str
 
 
@@ -270,9 +262,9 @@ class LatestServerInfo(BaseModel, db.Model):
     mem_free = db.Column(db.String(16), default='0')  # 内存
     mem_used_rate = db.Column(db.String(5), default='0')  # 内存
 
-    disk_total = db.Column(db.String(16), default='0')  # 磁盘阈值
-    disk_size = db.Column(db.String(16), default='0')  # 磁盘阈值
-    disk_used_rate = db.Column(db.String(5), default='0')  # 磁盘阈值
+    disk_total = db.Column(db.String(16), default='0')  # 磁盘
+    disk_size = db.Column(db.String(16), default='0')  # 磁盘
+    disk_used_rate = db.Column(db.String(5), default='0')  # 磁盘
 
     loadIn1Min = db.Column(db.String(5), default='0')  # 1分钟负载
     loadIn5Min = db.Column(db.String(5), default='0')  # 5分钟负载
@@ -291,7 +283,7 @@ class LatestServerInfo(BaseModel, db.Model):
             'cpu_rate': self.cpu_rate,
             'mem_used_rate': self.mem_used_rate,
             'disk_used_rate': self.disk_used_rate,
-            'loadIn1Min': self.loadIn1Min
+            # 'loadIn1Min': self.loadIn1Min
         }
 
     def __repr__(self):

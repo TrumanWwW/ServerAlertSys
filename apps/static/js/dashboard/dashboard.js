@@ -14,10 +14,10 @@ var option_list = [];  // 多个图表的设置
 var cpu_data = [];
 var mem_data = [];
 var disk_data = [];
-var load_data = [];
+// var load_data = [];
 var timer;  //定时器
 var s_id;
-var active_index = 0;
+var active_index;
 
 //更新图表数据
 timer = setInterval(get_latest_data, 2000);
@@ -52,31 +52,37 @@ function get_latest_data() {
                 data.disk_used_rate
             ]
         });
-        load_data.push({
-            name: time,
-            value: [
-                time,
-                data.loadIn1Min
-            ]
-        });
-    }).done(function () {
+        // load_data.push({
+        //     name: time,
+        //     value: [
+        //         time,
+        //         data.loadIn1Min
+        //     ]
+        // });
+    }).done(function (data) {
         option_list[0].series[0].data[0].value = cpu_data[cpu_data.length - 1].value[1];
         option_list[0].series[1].data[0].value = mem_data[mem_data.length - 1].value[1];
         option_list[0].series[2].data[0].value = disk_data[disk_data.length - 1].value[1];
-        option_list[0].series[3].data[0].value = load_data[load_data.length - 1].value[1];
+        // option_list[0].series[3].data[0].value = load_data[load_data.length - 1].value[1];
         myCharts[0].setOption(option_list[0], true);
-        myCharts[0].hideLoading();
+
 
         //折线图
         if (cpu_data.length > 31) {
             cpu_data.shift();
             mem_data.shift();
             disk_data.shift();
-            load_data.shift();
+            // load_data.shift();
         }
         option_list[1].xAxis[0].min = new Date() - 60 * 1000; //更新最小x坐标
         myCharts[1].setOption(option_list[1]);
-        myCharts[1].hideLoading();
+        if(s_id){
+           myCharts[0].hideLoading();
+           myCharts[1].hideLoading();
+        }else {
+            toastr['warning'](data.warning)
+        }
+
     })
 }
 
@@ -89,7 +95,7 @@ function list_click() {
         cpu_data.length = 0;
         mem_data.length = 0;
         disk_data.length = 0;
-        load_data.length = 0;
+        // load_data.length = 0;
         clearInterval(timer);
         get_latest_data();
         timer = setInterval(get_latest_data, 2000);
@@ -116,7 +122,7 @@ function initCharts() {
     var default_inside_options = {
         name: 'CPU使用率',
         type: 'gauge',
-        center: ['12%', '50%'],
+        center: ['20%', '50%'],
         axisLine: {
             show: true,
             lineStyle: { // 属性lineStyle控制线条样式
@@ -187,6 +193,9 @@ function initCharts() {
                 textShadowBlur: 2
             },
             formatter: function (value) {
+                if(isNaN(value)){
+                    return '--.--'
+                }
                 value = (value + '').split('.');
                 value.length < 2 && (value.push('00'));
                 return ('00' + value[0]).slice(-2)
@@ -211,25 +220,25 @@ function initCharts() {
             default_inside_options,
             $.extend(inside_option2, default_inside_options, {
                 name: '内存使用率',
-                center: ['37%', '50%'],
+                center: ['50%', '50%'],
                 data: [{
                     name: 'MEM%'
                 }]
             }),
             $.extend(inside_option3, default_inside_options, {
                 name: '磁盘使用率',
-                center: ['62%', '50%'],
+                center: ['80%', '50%'],
                 data: [{
                     name: 'DISK%'
                 }]
-            }),
-            $.extend(inside_option4, default_inside_options, {
-                name: '负载',
-                center: ['87%', '50%'],
-                data: [{
-                    name: 'LOAD%'
-                }]
             })
+            // $.extend(inside_option4, default_inside_options, {
+            //     name: '负载',
+            //     center: ['87%', '50%'],
+            //     data: [{
+            //         name: 'LOAD%'
+            //     }]
+            // })
         ], animationDurationUpdate: 1000
     };
 //折线图设置#}
@@ -247,7 +256,7 @@ function initCharts() {
             }
         },
         legend: {
-            data: ['CPU%', 'MEM%', 'DISK%', 'LOAD%']
+            data: ['CPU%', 'MEM%', 'DISK%'] // no load
         },
         grid: {
             left: '3%',
@@ -292,28 +301,26 @@ function initCharts() {
                 type: 'line',
                 stack: 'DISK',
                 data: disk_data
-            },
-            {
-                name: 'LOAD%',
-                type: 'line',
-                stack: 'LOAD',
-                data: load_data
             }
+            // {
+            //     name: 'LOAD%',
+            //     type: 'line',
+            //     stack: 'LOAD',
+            //     data: load_data
+            // }
         ], animationDurationUpdate: 700
     };
     myCharts[0].showLoading('default', {
         text: 'Loading...',
         color: '#c23531',
         textColor: '#000',
-        maskColor: 'rgba(255, 255, 255, 0.8)',
-        zlevel: 0
+        maskColor: 'rgba(255, 255, 255, 0.8)'
     });
     myCharts[1].showLoading('default', {
         text: 'Loading...',
         color: '#c23531',
         textColor: '#000',
-        maskColor: 'rgba(255, 255, 255, 0.8)',
-        zlevel: 0
+        maskColor: 'rgba(255, 255, 255, 0.8)'
     });
 
 
@@ -349,8 +356,13 @@ function refreshServerList() {
         url: '/api_v1/dashboard/list'
     }).done(function (data) {
         $('#wrapper').empty();
-        s_id = s_id ? s_id : data[0].s_id;
+        // s_id = s_id ? s_id : data[index].s_id;
+
         for (var index in data) {
+            if (!s_id && data[index].state) {
+                s_id = data[index].s_id;
+                active_index = index
+            }
             var className = 'col-md-1 col-sm-2';
             index == active_index ? className += ' active' : false;
             var $o = $dom.clone();
