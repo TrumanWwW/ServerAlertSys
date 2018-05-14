@@ -16,9 +16,8 @@ migrate = Migrate(app, db)
 # 给manager添加db命令
 manager.add_command('db', MigrateCommand)
 
-
 if __name__ == '__main__':
-    # manager.run()
-    from waitress import serve
-    serve(app, listen='127.0.0.1:5000')
+    # from waitress import serve
+    # serve(app, listen='127.0.0.1:5000')
+    manager.run()
     # serve(app, listen='127.0.0.1:5000', host='0.0.0.0')

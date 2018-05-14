@@ -1,13 +1,17 @@
 # -*- coding: utf-8 -*-
 # 循环依次查询服务器列表中服务器，保存实时信息，并做阈值判断，输出告警
 # import logging
+from datetime import datetime
 from threading import Timer
 
 import paramiko
 import re
 
+from sqlalchemy import desc
+
 from apps import db, create_app
-from apps.models import ServerInfo, LatestServerInfo
+from apps.models import ServerInfo, LatestServerInfo, ServerThreshold, AlertLog
+from apps.utils.record_log import record_alert_log
 
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
@@ -150,6 +154,8 @@ class Tool(object):
                     'server_id': host['id']
                 }
                 latest = LatestServerInfo.query.filter_by(server_id=host['id']).first()
+
+                # 保存状态到数据库
                 if latest:
                     for k, v in default_set.items():
                         setattr(latest, k, v)
@@ -157,15 +163,52 @@ class Tool(object):
                     db.session.add(LatestServerInfo(**default_set))
                 db.session.commit()
 
+                # 产生告警
+                server_t = ServerThreshold.query.filter_by(server_id=host['id']).first()
+                # 未开启监听
+                if not server_t.servers.state:
+                    return False
+
+                if float(default_set['mem_used_rate']) > float(server_t.server_mem_th):
+                    a_log = AlertLog.query \
+                        .filter_by(server_id=host['id'], type='mem') \
+                        .order_by('alert_log.id desc').first()
+                    if not a_log or (datetime.now() - a_log.create_time).seconds > (3 * 60):
+                        record_alert_log(server_t.server_mem_th,
+                                         default_set['mem_used_rate'],
+                                         'mem',
+                                         u'内存占用超出设定阈值',
+                                         host['id'])
+                if float(default_set['cpu_rate']) > float(server_t.server_cpu_th):
+                    a_log = AlertLog.query \
+                        .filter_by(server_id=host['id'], type='cpu') \
+                        .order_by('alert_log.id desc').first()
+                    if not a_log or (datetime.now() - a_log.create_time).seconds > (3 * 60):
+                        record_alert_log(server_t.server_cpu_th,
+                                         default_set['cpu_rate'],
+                                         'cpu',
+                                         u'CPU使用超出设定阈值',
+                                         host['id'])
+                if float(default_set['disk_used_rate']) > float(server_t.server_disk_th):
+                    a_log = AlertLog.query \
+                        .filter_by(server_id=host['id'], type='disk') \
+                        .order_by('alert_log.id desc').first()
+                    if not a_log or (datetime.now() - a_log.create_time).seconds > (3 * 60):
+                        record_alert_log(server_t.server_disk_th,
+                                         default_set['disk_used_rate'],
+                                         'disk',
+                                         u'磁盘占用超出设定阈值',
+                                         host['id'])
+
 
 def fn():
-    app = create_app('develop')
+    app = create_app('develop')  # 创建一个app用于检测
     tool = Tool()
     tool.get_data()
 
 
 def run():
-    Timer(3, fn).start()
+    Timer(5, fn).start()
 
 
 if __name__ == '__main__':

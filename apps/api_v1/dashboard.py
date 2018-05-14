@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import time
 from flask import jsonify
-from flask_login import current_user
+from flask_login import current_user, login_required
 
 from apps import db
 from apps.api_v1 import api
@@ -11,6 +11,7 @@ from apps.models import ServerThreshold, ServerInfo, User, LatestServerInfo
 
 
 @api.route('/dashboard/list', methods=['GET'])
+@login_required
 def get_dashboard_server_list():
     """服务器列表"""
     user_id = current_user.id if str(current_user.authority) == '0' else True
@@ -25,7 +26,6 @@ def get_dashboard_server_list():
         latest_ser = LatestServerInfo.query.filter_by(server_id=server.servers.id).first()
         if latest_ser and state:
             state = 'highLoad' if latest_ser.cpu_rate != '--' and float(latest_ser.cpu_rate) > 50 else state
-
         _list.append({
             'state': state,
             'name': server.servers.name,
@@ -37,6 +37,7 @@ def get_dashboard_server_list():
 
 
 @api.route('/dashboard/server/<string:s_id>', methods=['GET'])
+@login_required
 def get_dashboard_server_info(s_id):
     if s_id == 'undefined':
         return jsonify({'warning': '未设置监听或不存在该服务器!'})

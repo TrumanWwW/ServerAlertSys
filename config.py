@@ -4,7 +4,7 @@
 class Config(object):
     # 调试模式 SECRET_KEY MYSQL Redis Session
     # MYSQL
-    SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@127.0.0.1/server_alarm_sys_lite_db'
+    SQLALCHEMY_DATABASE_URI = 'mysql://root:mysql@127.0.0.1/server_alarm_sys_lite_db?charset=utf8'
     # 跟踪
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     # 查询时显示sql语句

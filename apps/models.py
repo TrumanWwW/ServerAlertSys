@@ -85,7 +85,7 @@ class OperationLog(BaseModel, db.Model):
 
     id = db.Column(db.Integer, primary_key=True)  # 操作编号
     module = db.Column(db.String(8))  # 操作模块
-    operation = db.Column(db.String(128))  # 执行的操作
+    operation = db.Column(db.String(32))  # 执行的操作
     operation_res = db.Column(db.String(32))  # 操作结果
     # create_time 已继承
     update_time = None  # 取消update字段
