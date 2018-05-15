@@ -6,7 +6,6 @@ from flask_login import login_required, current_user
 from apps import db
 from apps.main.forms import AddUserForm, EditUserForm, AddServerForm
 from apps.models import User, ServerInfo, ServerThreshold
-from apps.utils.commons import auth_required
 from apps.utils.record_log import record_operation_log
 from . import main
 
@@ -23,7 +22,7 @@ def index():
 """用户管理"""
 
 
-# TODO:权限区分、密码重置
+# TODO:密码重置
 
 # 添加用户,修改用户
 @main.route('/users', methods=['GET', 'POST', 'DELETE'])

@@ -104,7 +104,7 @@ function edit(e, id) {
     // var id = $p.find('td').eq(2).html();
     var name = $p.find('td').eq(3).html();
     var auth_str = $p.find('td').eq(4).html();
-    var dict = {'超级管理员': 2, '管理员': 1, '用户': 0};
+    var dict = {'ROOT': 2, '管理员': 1, '用户': 0};
     var $o = $('#myModal2');
     $o.find('.u_id').val(id);
     $o.find(':text').val(name);
@@ -122,11 +122,7 @@ function del(e, id) {
         title: "注意",
         message: "确认要删除么？",
         operate: function (reselt) {
-            if (reselt) {
-                b = true
-            } else {
-                b = false
-            }
+            reselt ? b=true:b=false;
             if (!b) {
                 return false;
             }

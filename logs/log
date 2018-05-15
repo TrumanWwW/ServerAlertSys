@@ -24532,3 +24532,877 @@ lib\site-packages\paramiko\packet.py", line 353, in readline
 2018-05-14 15:56:09,923 - WARNING - _internal.py:88 -  * Debugger is active!
 2018-05-14 16:02:19,541 - WARNING - _internal.py:88 -  * Debugger is active!
 2018-05-14 16:12:55,789 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 10:56:32,046 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:17:12,111 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:17:12,675 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:17:12,681 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:17:12,686 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:17:18,057 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:17:18] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354184279 HTTP/1.1" 200 -
+2018-05-15 11:17:26,080 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:26,340 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:26,669 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:27,030 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:31,066 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:31,342 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:31,647 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:31,982 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:36,075 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:36,354 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:36,655 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:36,949 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:41,062 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:41,308 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:41,659 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:41,961 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:46,137 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:46,372 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:46,616 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:46,902 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:51,134 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:51,409 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:51,619 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:51,911 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:56,112 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:56,379 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:17:56,642 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:17:56,936 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:01,076 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:01,347 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:01,643 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:01,955 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:02,847 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:02] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354184280 HTTP/1.1" 200 -
+2018-05-15 11:18:03,206 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:03] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354184281 HTTP/1.1" 200 -
+2018-05-15 11:18:03,375 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:03] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354184282 HTTP/1.1" 200 -
+2018-05-15 11:18:06,163 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:06,399 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:06,657 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:06,946 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:11,113 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:11,388 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:11,678 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:11,998 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:13,898 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\utils\\get_server_info.py', reloading
+2018-05-15 11:18:16,105 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:16,372 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:16,670 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:16,966 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:21,113 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:21,347 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:21,691 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:22,022 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:25,056 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:25] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354184283 HTTP/1.1" 200 -
+2018-05-15 11:18:25,459 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:25] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354184284 HTTP/1.1" 200 -
+2018-05-15 11:18:25,622 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:25] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354184285 HTTP/1.1" 200 -
+2018-05-15 11:18:25,776 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:25] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354184286 HTTP/1.1" 200 -
+2018-05-15 11:18:25,935 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:25] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354184287 HTTP/1.1" 200 -
+2018-05-15 11:18:26,104 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:26] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354184288 HTTP/1.1" 200 -
+2018-05-15 11:18:26,118 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:26,240 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:26] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354184289 HTTP/1.1" 200 -
+2018-05-15 11:18:26,390 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:26,711 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:27,013 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /log/operation HTTP/1.1" 200 -
+2018-05-15 11:18:27,017 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:27,042 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:18:27,056 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:18:27,060 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:18:27,063 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:18:27,067 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:18:27,072 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:18:27,078 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:18:27,081 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:18:27,084 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:18:27,092 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:18:27,197 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/js/log/operation.js HTTP/1.1" 200 -
+2018-05-15 11:18:27,255 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:18:27,267 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:18:27,333 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /api_v1/log/operation/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354307259 HTTP/1.1" 200 -
+2018-05-15 11:18:27,335 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:18:27,959 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:27] "GET /api_v1/log/operation/table?rows=10&page=1&sort=id&sortOrder=asc&type=&_=1526354307260 HTTP/1.1" 200 -
+2018-05-15 11:18:28,521 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:28] "GET /api_v1/log/operation/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354307261 HTTP/1.1" 200 -
+2018-05-15 11:18:28,962 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:28] "GET /api_v1/log/operation/table?rows=10&page=1&sort=id&sortOrder=asc&type=&_=1526354307262 HTTP/1.1" 200 -
+2018-05-15 11:18:29,361 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:18:29] "GET /api_v1/log/operation/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354307263 HTTP/1.1" 200 -
+2018-05-15 11:18:31,108 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:31,391 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:31,713 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:32,066 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:36,152 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:36,440 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:36,739 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:37,026 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:41,137 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:41,417 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:41,761 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:42,123 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:46,160 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:46,436 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:46,747 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:47,052 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:51,179 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:51,455 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:51,740 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:52,047 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:56,162 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:56,446 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:18:56,740 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:18:57,054 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:01,192 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:01,455 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:01,722 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:02,042 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:06,192 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:06,463 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:06,734 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:07,055 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:11,210 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:11,491 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:11,749 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:12,048 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:16,186 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:16,457 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:16,764 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:17,063 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:21,189 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:21,475 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:21,741 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:22,025 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:24,395 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:24] "GET /api_v1/log/operation/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354307264 HTTP/1.1" 200 -
+2018-05-15 11:19:24,986 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:24] "GET /api_v1/log/operation/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354307265 HTTP/1.1" 200 -
+2018-05-15 11:19:26,196 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:26,500 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:26,756 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:19:26,768 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:26,778 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:19:26,794 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:19:26,799 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:19:26,803 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:19:26,807 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.css HTTP/1.1" 200 -
+2018-05-15 11:19:26,811 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:19:26,816 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:19:26,821 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:19:26,827 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:19:26,831 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:19:26,838 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:19:26,841 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.js HTTP/1.1" 200 -
+2018-05-15 11:19:26,846 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:26] "GET /static/js/log/alert.js HTTP/1.1" 200 -
+2018-05-15 11:19:27,004 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:27] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:19:27,006 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:27] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:19:27,079 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:27] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354366990 HTTP/1.1" 200 -
+2018-05-15 11:19:27,081 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:19:27] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:19:27,250 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:31,210 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:31,483 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:31,783 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:32,089 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:36,216 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:36,492 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:36,753 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:37,044 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:41,228 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:41,505 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:41,751 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:42,050 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:46,247 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:46,532 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:46,767 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:47,064 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:51,213 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:51,491 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:51,823 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:52,158 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:56,211 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:56,489 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:19:56,753 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:19:57,065 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:01,238 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:01,502 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:01,742 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:02,056 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:06,248 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:06,529 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:06,809 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:07,113 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:11,235 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:11,510 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:11,839 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:12,186 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:12,225 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:20:12,250 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:20:12,281 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:20:12,286 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:20:12,298 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:20:12,301 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.css HTTP/1.1" 200 -
+2018-05-15 11:20:12,303 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:20:12,311 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:20:12,314 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:20:12,337 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:20:12,343 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:20:12,348 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:20:12,352 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.js HTTP/1.1" 200 -
+2018-05-15 11:20:12,354 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/js/log/alert.js HTTP/1.1" 200 -
+2018-05-15 11:20:12,608 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:20:12,625 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:20:12,631 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:20:12,709 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:20:12] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354412507 HTTP/1.1" 200 -
+2018-05-15 11:20:16,217 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:16,506 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:16,793 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:17,082 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:21,237 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:21,509 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:21,779 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:22,163 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:26,223 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:26,501 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:26,770 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:27,061 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:31,235 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:31,511 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:31,791 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:32,077 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:36,221 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:36,518 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:36,793 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:37,087 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:41,221 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:41,505 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:41,788 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:42,097 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:46,232 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:46,504 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:46,805 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:47,107 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:51,231 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:51,516 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:51,790 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:52,081 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:56,237 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:56,530 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:20:56,811 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:20:57,137 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:01,229 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:01,506 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:01,818 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:02,197 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:06,242 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:06,523 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:06,806 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:07,117 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:11,281 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:11,558 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:11,802 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:12,149 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:16,255 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:16,523 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:16,823 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:17,158 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:21,264 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:21,539 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:21,821 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:22,122 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:26,267 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:26,541 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:26,554 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:26] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354412508 HTTP/1.1" 200 -
+2018-05-15 11:21:26,822 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:27,110 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:27,463 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /log/operation HTTP/1.1" 200 -
+2018-05-15 11:21:27,484 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:21:27,507 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:21:27,516 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:21:27,521 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:21:27,530 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:21:27,535 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:21:27,538 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:21:27,544 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:21:27,549 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:21:27,601 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:21:27,605 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/js/log/operation.js HTTP/1.1" 200 -
+2018-05-15 11:21:27,707 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:21:27,727 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:21:27,821 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /api_v1/log/operation/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354487743 HTTP/1.1" 200 -
+2018-05-15 11:21:27,824 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:27] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:21:28,535 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:21:28,559 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:21:28,583 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:21:28,588 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:21:28,595 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:21:28,599 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.css HTTP/1.1" 200 -
+2018-05-15 11:21:28,602 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:21:28,608 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:21:28,616 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:21:28,624 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:21:28,628 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:21:28,633 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:21:28,637 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.js HTTP/1.1" 200 -
+2018-05-15 11:21:28,640 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/js/log/alert.js HTTP/1.1" 200 -
+2018-05-15 11:21:28,813 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:21:28,830 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:21:28,906 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354488838 HTTP/1.1" 200 -
+2018-05-15 11:21:28,909 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:28] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:21:29,967 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:29] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:21:29,988 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:29] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:21:30,017 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:21:30,035 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:21:30,039 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:21:30,044 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.css HTTP/1.1" 200 -
+2018-05-15 11:21:30,051 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:21:30,055 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:21:30,062 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:21:30,068 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:21:30,071 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:21:30,077 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:21:30,082 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.js HTTP/1.1" 200 -
+2018-05-15 11:21:30,086 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/js/log/alert.js HTTP/1.1" 200 -
+2018-05-15 11:21:30,219 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:21:30,241 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:21:30,322 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490254 HTTP/1.1" 200 -
+2018-05-15 11:21:30,326 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:21:30] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:21:31,259 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:31,552 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:31,813 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:32,108 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:36,276 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:36,687 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:36,830 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:37,131 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:41,284 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:41,725 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:41,839 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:42,216 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:46,264 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:46,537 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:46,835 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:47,152 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:51,280 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:51,561 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:51,827 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:52,141 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:56,278 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:56,562 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:21:56,837 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:21:57,178 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:01,274 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:01,542 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:01,854 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:02,158 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:06,277 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:06,553 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:06,839 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:07,141 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:11,276 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:11,543 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:11,851 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:12,162 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:16,284 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:16,631 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:16,916 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:17,287 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:21,258 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:21,524 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:21,873 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:22,186 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:26,290 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:26,578 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:26,866 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:27,167 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:31,284 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:31,561 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:31,847 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:32,137 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:36,323 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:36,561 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:36,863 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:37,161 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:41,304 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:41,581 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:41,915 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:42,249 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:46,323 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:22:46,641 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:22:51,751 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:22:52,361 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:22:52,366 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:22:52,372 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:22:55,959 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:22:55] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490255 HTTP/1.1" 200 -
+2018-05-15 11:22:56,707 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:22:56] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490256 HTTP/1.1" 200 -
+2018-05-15 11:23:05,721 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:06,049 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:06,379 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:06,725 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:08,872 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:23:08] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490257 HTTP/1.1" 200 -
+2018-05-15 11:23:10,682 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:10,957 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:11,302 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:11,609 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:15,698 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:16,002 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:16,309 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:16,676 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:20,675 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:20,953 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:21,312 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:21,661 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:25,689 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:26,044 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:26,392 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:26,748 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:30,706 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:30,982 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:31,296 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:31,592 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:35,692 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:35,958 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:36,317 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:36,625 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:40,693 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:40,983 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:41,358 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:41,694 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:44,901 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\__init__.py', reloading
+2018-05-15 11:23:45,707 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:45,981 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:46,309 - INFO - transport.py:1687 - Connected (version 2.0, client OpenSSH_6.6.1)
+2018-05-15 11:23:46,645 - INFO - transport.py:1687 - Authentication (password) successful!
+2018-05-15 11:23:57,363 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:23:57,885 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:23:57,891 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:23:57,898 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:24:02,223 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:24:02] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490258 HTTP/1.1" 200 -
+2018-05-15 11:24:02,663 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:24:02] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490259 HTTP/1.1" 200 -
+2018-05-15 11:24:03,202 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:24:03] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490260 HTTP/1.1" 200 -
+2018-05-15 11:24:03,617 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:24:03] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490261 HTTP/1.1" 200 -
+2018-05-15 11:24:03,983 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:24:03] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490262 HTTP/1.1" 200 -
+2018-05-15 11:24:04,384 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:24:04] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490263 HTTP/1.1" 200 -
+2018-05-15 11:24:04,784 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:24:04] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490264 HTTP/1.1" 200 -
+2018-05-15 11:24:05,218 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:24:05] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490265 HTTP/1.1" 200 -
+2018-05-15 11:24:14,240 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:24:14] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490266 HTTP/1.1" 200 -
+2018-05-15 11:24:15,646 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:24:15] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=mem&_=1526354490267 HTTP/1.1" 200 -
+2018-05-15 11:24:16,611 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:24:16] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490268 HTTP/1.1" 200 -
+2018-05-15 11:25:01,282 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:25:01,366 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:25:01,960 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:25:01,967 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:25:01,974 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:25:07,293 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\users.py', reloading
+2018-05-15 11:25:07,357 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:25:07,885 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:25:07,891 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:25:07,897 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:25:11,163 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\users.py', reloading
+2018-05-15 11:25:11,220 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:25:11,780 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:25:11,785 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:25:11,792 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:27:30,607 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:27:30] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490269 HTTP/1.1" 200 -
+2018-05-15 11:27:31,111 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:27:31] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490270 HTTP/1.1" 200 -
+2018-05-15 11:27:50,004 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\users.py', reloading
+2018-05-15 11:27:50,095 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:27:51,060 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:27:51,065 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:27:51,073 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:27:52,870 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:27:52] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490271 HTTP/1.1" 200 -
+2018-05-15 11:27:53,406 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:27:53] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490272 HTTP/1.1" 200 -
+2018-05-15 11:27:53,904 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:27:53] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490273 HTTP/1.1" 200 -
+2018-05-15 11:28:02,207 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\users.py', reloading
+2018-05-15 11:28:02,265 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:28:02,831 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:28:02,838 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:28:02,846 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:29:30,963 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:29:31,067 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:29:31,988 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:29:31,994 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:29:32,002 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:29:33,800 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:29:33] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490274 HTTP/1.1" 200 -
+2018-05-15 11:29:34,559 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:29:34] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490275 HTTP/1.1" 200 -
+2018-05-15 11:29:36,243 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:29:36,414 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:29:37,055 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:29:37,062 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:29:37,069 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:30:01,458 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:30:01,514 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:30:02,068 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:30:02,075 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:30:02,082 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:30:11,695 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:30:11,773 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:30:12,394 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:30:12,399 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:30:12,407 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:30:13,532 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:13] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526354490276 HTTP/1.1" 200 -
+2018-05-15 11:30:34,735 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:30:34,804 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:30:35,500 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:30:35,505 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:30:35,511 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:30:36,971 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:36] "GET /users HTTP/1.1" 200 -
+2018-05-15 11:30:36,998 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:36] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:37,029 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:30:37,033 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:30:37,039 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:30:37,047 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:37,054 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:37,058 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:30:37,136 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:30:37,142 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:30:37,147 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:30:37,151 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/js/users/users.js HTTP/1.1" 200 -
+2018-05-15 11:30:37,268 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:30:37,271 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:30:37,275 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:30:37,341 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:37] "GET /api_v1/users/table?rows=10&page=1&sortOrder=asc&_=1526355037243 HTTP/1.1" 200 -
+2018-05-15 11:30:44,779 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:44] "POST /users/edit HTTP/1.1" 200 -
+2018-05-15 11:30:44,801 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:44] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:44,825 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:44] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:30:44,829 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:44] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:30:44,832 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:44] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:30:44,836 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:44] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:44,840 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:44] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:44,844 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:44] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:30:44,848 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:44] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:30:44,851 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:44] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:30:44,856 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:44] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:30:44,860 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:44] "GET /static/js/users/users.js HTTP/1.1" 200 -
+2018-05-15 11:30:45,048 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:45] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:30:45,052 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:45] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:30:45,128 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:45] "GET /api_v1/users/table?rows=10&page=1&sortOrder=asc&_=1526355045067 HTTP/1.1" 200 -
+2018-05-15 11:30:45,131 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:45] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:30:46,721 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:30:46,745 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:46,765 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:30:46,771 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:30:46,780 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:30:46,784 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.css HTTP/1.1" 200 -
+2018-05-15 11:30:46,793 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:46,799 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:46,803 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:30:46,809 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:30:46,812 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:30:46,817 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:30:46,820 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.js HTTP/1.1" 200 -
+2018-05-15 11:30:46,826 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/js/log/alert.js HTTP/1.1" 200 -
+2018-05-15 11:30:46,974 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:30:46,977 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:46] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:30:47,117 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:47] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355046997 HTTP/1.1" 200 -
+2018-05-15 11:30:47,119 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:47] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:30:48,501 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /users HTTP/1.1" 200 -
+2018-05-15 11:30:48,542 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:48,549 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:30:48,566 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:30:48,569 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:30:48,572 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:48,578 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:48,582 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:30:48,586 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:30:48,589 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:30:48,595 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:30:48,598 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/js/users/users.js HTTP/1.1" 200 -
+2018-05-15 11:30:48,739 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:30:48,744 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:30:48,820 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /api_v1/users/table?rows=10&page=1&sortOrder=asc&_=1526355048759 HTTP/1.1" 200 -
+2018-05-15 11:30:48,823 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:48] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:30:52,678 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "POST /users/edit HTTP/1.1" 200 -
+2018-05-15 11:30:52,701 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:52,722 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:30:52,727 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:30:52,738 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:30:52,746 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:52,751 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:30:52,757 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:30:52,762 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:30:52,766 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:30:52,772 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:30:52,777 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/js/users/users.js HTTP/1.1" 200 -
+2018-05-15 11:30:52,918 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:30:52,928 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:30:52,998 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:52] "GET /api_v1/users/table?rows=10&page=1&sortOrder=asc&_=1526355052934 HTTP/1.1" 200 -
+2018-05-15 11:30:53,001 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:53] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:30:55,231 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:30:55] "GET /api_v1/users/table?rows=10&page=1&sortOrder=asc&_=1526355052935 HTTP/1.1" 200 -
+2018-05-15 11:31:11,591 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:31:11,668 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:31:12,230 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:31:12,235 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:31:12,243 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:31:25,445 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:25] "GET /api_v1/users/table?rows=10&page=1&sortOrder=asc&_=1526355052936 HTTP/1.1" 200 -
+2018-05-15 11:31:26,676 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:31:26,707 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:31:26,725 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:31:26,729 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:31:26,733 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:31:26,736 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.css HTTP/1.1" 200 -
+2018-05-15 11:31:26,743 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:31:26,748 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:31:26,754 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:31:26,761 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:31:26,766 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:31:26,771 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:31:26,775 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.js HTTP/1.1" 200 -
+2018-05-15 11:31:26,779 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/js/log/alert.js HTTP/1.1" 200 -
+2018-05-15 11:31:26,925 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:31:26,948 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:26] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:31:27,037 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:27] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355086945 HTTP/1.1" 200 -
+2018-05-15 11:31:27,040 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:31:27] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:32:09,717 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:32:09] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=mem&_=1526355086946 HTTP/1.1" 200 -
+2018-05-15 11:32:42,592 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:32:42,685 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:33:10,349 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:33:10,867 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:33:10,872 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:33:10,879 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:33:12,534 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:33:12] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=mem&_=1526355086947 HTTP/1.1" 200 -
+2018-05-15 11:33:13,798 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:33:13] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=mem&_=1526355086948 HTTP/1.1" 200 -
+2018-05-15 11:33:16,372 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:33:16] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=disk&_=1526355086949 HTTP/1.1" 200 -
+2018-05-15 11:33:17,879 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:33:17] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=mem&_=1526355086950 HTTP/1.1" 200 -
+2018-05-15 11:33:37,238 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:33:37,366 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:33:38,539 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:33:38,544 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:33:38,551 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:33:39,953 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:33:39] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=mem&_=1526355086951 HTTP/1.1" 200 -
+2018-05-15 11:33:40,582 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:33:40] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=mem&_=1526355086952 HTTP/1.1" 200 -
+2018-05-15 11:33:41,128 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:33:41] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=mem&_=1526355086953 HTTP/1.1" 200 -
+2018-05-15 11:33:51,444 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:33:51,513 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:33:52,132 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:33:52,140 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:33:52,148 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:33:56,312 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:33:56] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=mem&_=1526355086954 HTTP/1.1" 200 -
+2018-05-15 11:34:03,812 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:34:03,912 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:34:04,584 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:34:04,589 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:34:04,597 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:34:06,554 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:34:06,579 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/bootstrap/css/bootstrap.min.css?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:34:06,602 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/css/public.css HTTP/1.1" 200 -
+2018-05-15 11:34:06,605 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/third_party/toast/toastr.min.css HTTP/1.1" 200 -
+2018-05-15 11:34:06,609 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/third_party/bootstrap_table/bootstrap-table.css HTTP/1.1" 200 -
+2018-05-15 11:34:06,612 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.css HTTP/1.1" 200 -
+2018-05-15 11:34:06,615 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/bootstrap/jquery.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:34:06,620 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/bootstrap/js/bootstrap.min.js?bootstrap=3.3.7.1.dev1 HTTP/1.1" 200 -
+2018-05-15 11:34:06,624 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/third_party/toast/toastr.min.js HTTP/1.1" 200 -
+2018-05-15 11:34:06,628 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/js/public.js HTTP/1.1" 200 -
+2018-05-15 11:34:06,631 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/third_party/bootstrap_table/bootstrap-table.js HTTP/1.1" 200 -
+2018-05-15 11:34:06,637 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/third_party/bootstrap_table/locale/bootstrap-table-zh-CN.js HTTP/1.1" 200 -
+2018-05-15 11:34:06,640 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/third_party/bootstrap_table/extensions/filter-control/bootstrap-table-filter-control.js HTTP/1.1" 200 -
+2018-05-15 11:34:06,644 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/js/log/alert.js HTTP/1.1" 200 -
+2018-05-15 11:34:06,846 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+2018-05-15 11:34:06,860 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 404 -
+2018-05-15 11:34:06,936 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355246868 HTTP/1.1" 200 -
+2018-05-15 11:34:06,939 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/third_party/toast/toastr.js.map HTTP/1.1" 404 -
+2018-05-15 11:34:06,966 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:06] "GET /static/favicon.ico HTTP/1.1" 200 -
+2018-05-15 11:34:08,182 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:34:08] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355246869 HTTP/1.1" 200 -
+2018-05-15 11:34:13,112 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:34:13,174 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:34:14,381 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:34:14,414 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:34:14,441 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:37:02,184 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:37:02,691 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:37:02,698 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:37:02,709 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:37:06,603 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:37:06] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355246870 HTTP/1.1" 200 -
+2018-05-15 11:37:07,197 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:37:07] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355246871 HTTP/1.1" 200 -
+2018-05-15 11:37:08,044 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:37:08] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355246872 HTTP/1.1" 200 -
+2018-05-15 11:37:09,363 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:37:09] "GET /log/operation HTTP/1.1" 200 -
+2018-05-15 11:37:09,575 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:37:09] "GET /api_v1/log/operation/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355429496 HTTP/1.1" 200 -
+2018-05-15 11:37:11,149 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:37:11] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:37:11,344 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:37:11] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431279 HTTP/1.1" 200 -
+2018-05-15 11:37:12,364 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:37:12] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431280 HTTP/1.1" 200 -
+2018-05-15 11:38:34,825 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:38:35,147 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:38:37,016 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:38:37,023 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:38:37,032 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:38:39,137 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:39] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431281 HTTP/1.1" 200 -
+2018-05-15 11:38:40,586 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:40] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431282 HTTP/1.1" 200 -
+2018-05-15 11:38:42,911 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:38:43,107 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:38:44,721 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:38:44,726 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:38:44,734 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:38:48,192 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:38:48,281 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:38:49,852 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:38:49,887 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:38:49,940 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:38:50,444 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:50] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431283 HTTP/1.1" 200 -
+2018-05-15 11:38:50,951 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:50] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431284 HTTP/1.1" 200 -
+2018-05-15 11:38:51,307 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:51] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431285 HTTP/1.1" 200 -
+2018-05-15 11:38:51,492 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:51] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431286 HTTP/1.1" 200 -
+2018-05-15 11:38:51,686 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:51] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431287 HTTP/1.1" 200 -
+2018-05-15 11:38:52,115 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:52] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431288 HTTP/1.1" 200 -
+2018-05-15 11:38:52,291 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:52] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431289 HTTP/1.1" 200 -
+2018-05-15 11:38:52,476 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:52] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431290 HTTP/1.1" 200 -
+2018-05-15 11:38:52,660 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:52] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431291 HTTP/1.1" 200 -
+2018-05-15 11:38:52,838 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:52] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431292 HTTP/1.1" 200 -
+2018-05-15 11:38:53,003 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:53] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431293 HTTP/1.1" 200 -
+2018-05-15 11:38:53,187 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:38:53] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431294 HTTP/1.1" 200 -
+2018-05-15 11:38:58,813 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:38:59,110 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:39:00,437 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:39:00,442 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:39:00,619 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:39:37,471 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:39:37,633 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:39:39,156 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:39:39,161 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:39:39,168 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:39:40,950 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:39:40] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431295 HTTP/1.1" 200 -
+2018-05-15 11:39:41,491 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:39:41] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431296 HTTP/1.1" 200 -
+2018-05-15 11:39:41,883 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:39:41] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431297 HTTP/1.1" 200 -
+2018-05-15 11:39:42,076 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:39:42] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431298 HTTP/1.1" 200 -
+2018-05-15 11:39:42,252 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:39:42] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431299 HTTP/1.1" 200 -
+2018-05-15 11:40:39,649 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:40:39,708 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:40:41,377 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:40:41,382 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:40:41,389 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:40:47,710 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:40:47] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431300 HTTP/1.1" 200 -
+2018-05-15 11:40:48,139 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:40:48] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431301 HTTP/1.1" 200 -
+2018-05-15 11:42:31,974 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:31] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431302 HTTP/1.1" 200 -
+2018-05-15 11:42:32,501 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:32] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431303 HTTP/1.1" 200 -
+2018-05-15 11:42:32,715 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:32] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431304 HTTP/1.1" 200 -
+2018-05-15 11:42:32,875 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:32] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431305 HTTP/1.1" 200 -
+2018-05-15 11:42:33,043 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:33] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431306 HTTP/1.1" 200 -
+2018-05-15 11:42:33,211 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:33] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355431307 HTTP/1.1" 200 -
+2018-05-15 11:42:34,090 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:34] "GET /logout HTTP/1.1" 302 -
+2018-05-15 11:42:34,112 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:34] "GET /login HTTP/1.1" 200 -
+2018-05-15 11:42:38,063 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:38] "POST /login HTTP/1.1" 302 -
+2018-05-15 11:42:38,104 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:38] "GET /index HTTP/1.1" 200 -
+2018-05-15 11:42:38,147 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:38] "GET /static/css/dashboard/dashboard.css HTTP/1.1" 200 -
+2018-05-15 11:42:38,165 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:38] "GET /static/third_party/echarts/echarts.js HTTP/1.1" 200 -
+2018-05-15 11:42:38,293 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:38] "GET /static/lib/MouseWheel.js HTTP/1.1" 200 -
+2018-05-15 11:42:38,296 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:38] "GET /static/js/dashboard/dashboard.js HTTP/1.1" 200 -
+2018-05-15 11:42:38,404 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:38] "GET /api_v1/dashboard/list HTTP/1.1" 200 -
+2018-05-15 11:42:40,177 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:40] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:42:40,345 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:40] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355760283 HTTP/1.1" 200 -
+2018-05-15 11:42:41,640 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:41] "GET /log/operation HTTP/1.1" 200 -
+2018-05-15 11:42:41,794 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:41] "GET /api_v1/log/operation/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355761739 HTTP/1.1" 200 -
+2018-05-15 11:42:42,748 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:42] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:42:42,884 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:42:42] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355762833 HTTP/1.1" 200 -
+2018-05-15 11:43:11,793 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:43:11,942 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:43:13,402 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:43:13,408 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:43:13,417 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:43:14,186 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:14] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355762834 HTTP/1.1" 200 -
+2018-05-15 11:43:15,088 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:15] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=asc&type=&_=1526355762835 HTTP/1.1" 200 -
+2018-05-15 11:43:15,793 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:15] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355762836 HTTP/1.1" 200 -
+2018-05-15 11:43:16,653 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:16] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=asc&type=&_=1526355762837 HTTP/1.1" 200 -
+2018-05-15 11:43:19,536 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:19] "GET /api_v1/log/alert/table?rows=50&page=1&sort=id&sortOrder=asc&type=&_=1526355762838 HTTP/1.1" 200 -
+2018-05-15 11:43:20,402 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:20] "GET /api_v1/log/alert/table?rows=50&page=1&sort=id&sortOrder=desc&type=&_=1526355762839 HTTP/1.1" 200 -
+2018-05-15 11:43:26,845 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:26] "GET /api_v1/log/alert/table?rows=50&page=1&sort=id&sortOrder=asc&type=&_=1526355762840 HTTP/1.1" 200 -
+2018-05-15 11:43:29,904 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:29] "GET /api_v1/log/alert/table?rows=50&page=1&sort=id&sortOrder=asc&type=disk&_=1526355762841 HTTP/1.1" 200 -
+2018-05-15 11:43:33,384 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:33] "GET /api_v1/log/alert/table?rows=50&page=1&sort=id&sortOrder=asc&type=mem&_=1526355762842 HTTP/1.1" 200 -
+2018-05-15 11:43:35,466 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:35] "GET /api_v1/log/alert/table?rows=50&page=1&sort=id&sortOrder=asc&type=cpu&_=1526355762843 HTTP/1.1" 200 -
+2018-05-15 11:43:36,632 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:36] "GET /api_v1/log/alert/table?rows=50&page=1&sort=id&sortOrder=asc&type=mem&_=1526355762844 HTTP/1.1" 200 -
+2018-05-15 11:43:37,585 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:37] "GET /api_v1/log/alert/table?rows=50&page=1&sort=id&sortOrder=asc&type=cpu&_=1526355762845 HTTP/1.1" 200 -
+2018-05-15 11:43:38,511 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:38] "GET /api_v1/log/alert/table?rows=50&page=1&sort=id&sortOrder=asc&type=disk&_=1526355762846 HTTP/1.1" 200 -
+2018-05-15 11:43:45,551 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:45] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:43:45,745 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:45] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355825670 HTTP/1.1" 200 -
+2018-05-15 11:43:45,748 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:43:45] "GET /static/favicon.ico HTTP/1.1" 200 -
+2018-05-15 11:44:02,832 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:44:03,117 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:44:04,585 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:44:04,595 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:44:04,674 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:45:02,400 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:45:02,517 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:45:03,479 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:45:03,485 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:45:03,492 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:45:05,631 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:45:05] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355825671 HTTP/1.1" 200 -
+2018-05-15 11:45:06,059 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:45:06] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355825672 HTTP/1.1" 200 -
+2018-05-15 11:45:09,002 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:45:09,154 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:45:10,448 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:45:10,468 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:45:10,486 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:46:57,204 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:46:57,328 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:46:57,883 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:46:57,888 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:46:57,895 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:47:04,114 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:04] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355825673 HTTP/1.1" 200 -
+2018-05-15 11:47:04,896 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:04] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355825674 HTTP/1.1" 200 -
+2018-05-15 11:47:06,105 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:06] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355825675 HTTP/1.1" 200 -
+2018-05-15 11:47:08,558 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:47:08,823 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:47:10,089 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:47:10,097 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:47:10,106 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:47:20,827 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:47:20,898 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:47:21,434 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:47:21,439 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:47:21,446 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:47:23,266 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:23] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355825676 HTTP/1.1" 200 -
+2018-05-15 11:47:23,655 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:23] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355825677 HTTP/1.1" 200 -
+2018-05-15 11:47:24,056 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:24] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355825678 HTTP/1.1" 200 -
+2018-05-15 11:47:24,255 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:24] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355825679 HTTP/1.1" 200 -
+2018-05-15 11:47:24,424 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:24] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526355825680 HTTP/1.1" 200 -
+2018-05-15 11:47:30,401 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:30] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=disk&_=1526355825681 HTTP/1.1" 200 -
+2018-05-15 11:47:31,632 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:31] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=mem&_=1526355825682 HTTP/1.1" 200 -
+2018-05-15 11:47:32,572 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:32] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=cpu&_=1526355825683 HTTP/1.1" 200 -
+2018-05-15 11:47:42,530 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:42] "GET /users HTTP/1.1" 200 -
+2018-05-15 11:47:42,725 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:42] "GET /api_v1/users/table?rows=10&page=1&sortOrder=asc&_=1526356062658 HTTP/1.1" 200 -
+2018-05-15 11:47:44,721 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:44] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:47:44,867 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:44] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526356064815 HTTP/1.1" 200 -
+2018-05-15 11:47:47,433 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:47] "GET /config/alert HTTP/1.1" 200 -
+2018-05-15 11:47:47,452 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:47] "GET /static/third_party/bootstrap-editable/bootstrap-editable.css HTTP/1.1" 200 -
+2018-05-15 11:47:47,458 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:47] "GET /static/third_party/bootstrap-editable/bootstrap-editable.min.js HTTP/1.1" 200 -
+2018-05-15 11:47:47,465 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:47] "GET /static/third_party/bootstrap-editable/bootstrap-table-editable.js HTTP/1.1" 200 -
+2018-05-15 11:47:47,470 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:47] "GET /static/js/config/config_alert.js HTTP/1.1" 200 -
+2018-05-15 11:47:47,658 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:47:47] "GET /api_v1/alert/table?rows=10&page=1&sortOrder=asc&_=1526356067529 HTTP/1.1" 200 -
+2018-05-15 11:48:25,364 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:25] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:48:25,556 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:25] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526356105488 HTTP/1.1" 200 -
+2018-05-15 11:48:27,930 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:27] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=asc&type=&_=1526356105489 HTTP/1.1" 200 -
+2018-05-15 11:48:28,360 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:28] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526356105490 HTTP/1.1" 200 -
+2018-05-15 11:48:29,505 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:29] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526356105491 HTTP/1.1" 200 -
+2018-05-15 11:48:30,644 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:30] "GET /users HTTP/1.1" 200 -
+2018-05-15 11:48:30,778 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:30] "GET /api_v1/users/table?rows=10&page=1&sortOrder=asc&_=1526356110731 HTTP/1.1" 200 -
+2018-05-15 11:48:34,634 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:34] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:48:34,781 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:34] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526356114728 HTTP/1.1" 200 -
+2018-05-15 11:48:36,994 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:36] "GET /users HTTP/1.1" 200 -
+2018-05-15 11:48:37,158 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:37] "GET /api_v1/users/table?rows=10&page=1&sortOrder=asc&_=1526356117112 HTTP/1.1" 200 -
+2018-05-15 11:48:39,891 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:39] "GET /config/alert HTTP/1.1" 200 -
+2018-05-15 11:48:40,056 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:40] "GET /api_v1/alert/table?rows=10&page=1&sortOrder=asc&_=1526356119981 HTTP/1.1" 200 -
+2018-05-15 11:48:42,540 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:42] "GET /config/server HTTP/1.1" 200 -
+2018-05-15 11:48:42,564 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:42] "GET /static/js/config/config_server.js HTTP/1.1" 200 -
+2018-05-15 11:48:42,693 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:42] "GET /api_v1/server/table?rows=10&page=1&sortOrder=asc&_=1526356122640 HTTP/1.1" 200 -
+2018-05-15 11:48:45,759 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:45] "GET /api_v1/users/list HTTP/1.1" 200 -
+2018-05-15 11:48:54,284 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\api_v1\\log.py', reloading
+2018-05-15 11:48:54,543 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:48:55,211 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:48:55,217 - INFO - _internal.py:88 -  * Debugger PIN: 240-222-806
+2018-05-15 11:48:55,225 - INFO - _internal.py:88 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-15 11:48:58,023 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:58] "GET /config/alert HTTP/1.1" 200 -
+2018-05-15 11:48:58,231 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:48:58] "GET /api_v1/alert/table?rows=10&page=1&sortOrder=asc&_=1526356138145 HTTP/1.1" 200 -
+2018-05-15 11:49:00,206 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:00] "GET /users HTTP/1.1" 200 -
+2018-05-15 11:49:00,347 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:00] "GET /api_v1/users/table?rows=10&page=1&sortOrder=asc&_=1526356140299 HTTP/1.1" 200 -
+2018-05-15 11:49:01,264 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:01] "GET /config/server HTTP/1.1" 200 -
+2018-05-15 11:49:01,405 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:01] "GET /api_v1/server/table?rows=10&page=1&sortOrder=asc&_=1526356141348 HTTP/1.1" 200 -
+2018-05-15 11:49:12,199 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:12] "GET /api_v1/users/list HTTP/1.1" 200 -
+2018-05-15 11:49:14,355 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:14] "PUT /api_v1/server HTTP/1.1" 200 -
+2018-05-15 11:49:14,377 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:14] "GET /api_v1/server/table?rows=10&page=1&sortOrder=asc&_=1526356141349 HTTP/1.1" 200 -
+2018-05-15 11:49:15,936 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:15] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:49:16,134 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:16] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526356156059 HTTP/1.1" 200 -
+2018-05-15 11:49:18,741 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:18] "GET /config/alert HTTP/1.1" 200 -
+2018-05-15 11:49:18,900 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:18] "GET /api_v1/alert/table?rows=10&page=1&sortOrder=asc&_=1526356158831 HTTP/1.1" 200 -
+2018-05-15 11:49:20,245 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:20] "GET /config/server HTTP/1.1" 200 -
+2018-05-15 11:49:20,385 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:20] "GET /api_v1/server/table?rows=10&page=1&sortOrder=asc&_=1526356160332 HTTP/1.1" 200 -
+2018-05-15 11:49:21,095 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:21] "GET /api_v1/users/list HTTP/1.1" 200 -
+2018-05-15 11:49:23,112 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:23] "PUT /api_v1/server HTTP/1.1" 200 -
+2018-05-15 11:49:23,146 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:23] "GET /api_v1/server/table?rows=10&page=1&sortOrder=asc&_=1526356160333 HTTP/1.1" 200 -
+2018-05-15 11:49:24,236 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:24] "GET /log/alert HTTP/1.1" 200 -
+2018-05-15 11:49:24,378 - INFO - _internal.py:88 - 127.0.0.1 - - [15/May/2018 11:49:24] "GET /api_v1/log/alert/table?rows=10&page=1&sort=id&sortOrder=desc&type=&_=1526356164326 HTTP/1.1" 200 -
+2018-05-15 11:51:03,662 - INFO - _internal.py:88 -  * Detected change in 'D:\\workspace\\ServerAlertSysLite\\apps\\__init__.py', reloading
+2018-05-15 11:51:03,739 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:51:04,305 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:52:29,757 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:52:30,449 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:53:01,402 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:53:02,174 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-15 11:58:40,016 - INFO - _internal.py:88 -  * Restarting with stat
+2018-05-15 11:58:40,603 - WARNING - _internal.py:88 -  * Debugger is active!

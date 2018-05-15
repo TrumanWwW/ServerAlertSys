@@ -102,8 +102,14 @@ function tableInit() {
             update_row(field, row, oldValue, $el)
         }
     });
+    if ($('#table').bootstrapTable('getData').length ==0){
+        toastr['warning']('检查是否有分配到服务器！')
+    }
 }
 
 $('#toolbar').find('select').bind('change', function () {
     $('#table').bootstrapTable('refresh', {silent: true});
+    if ($('#table').bootstrapTable('getData').length ==0){
+        toastr['warning']('检查是否有分配到服务器！')
+    }
 });

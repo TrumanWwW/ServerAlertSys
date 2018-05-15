@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from flask import jsonify, request
 from flask_login import login_required, current_user
-from sqlalchemy import or_, and_
+from sqlalchemy import and_
 
 from apps import db
 from apps.models import OperationLog, AlertLog, ServerInfo, User

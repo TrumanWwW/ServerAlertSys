@@ -16,7 +16,7 @@ def users_get_table():
     rows = request.args.get('rows', 10)
     page = request.args.get('page', 0)
     users = User.query.filter(User.authority <= current_user.authority).order_by(User.id.asc()).paginate(int(page), int(rows), False)
-    _dict = {'0': '用户', '1': '管理员', '2': '超级管理员'}
+    _dict = {'0': '用户', '1': '管理员', '2': 'ROOT'}
     for user in users.items:
         row_list.append({
             'id': user.id,
