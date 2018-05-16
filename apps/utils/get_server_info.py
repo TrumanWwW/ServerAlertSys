@@ -126,9 +126,8 @@ class Tool(object):
 
                 # CPU
                 # 'cpu_rate': '68.84'
-                cpu_free = re.search(r'Average:\s*(.*?)\n', cpu_menu_out2).group(1)
+                cpu_free = re.search(r'[(\u5e73\u5747\u65f6\u95f4)|(Average)]:\s*(.*?)\n', cpu_menu_out2).group(1)
                 cpu_free = re.split('\s+', cpu_free)[-1]
-
                 # 磁盘
                 # 'disk_used': '6.3G', 'disk_size': '76G', 'disk_use': '9%'
                 disk_line = re.split(r'\n', disk_menu_out)[-2]
