@@ -7,8 +7,6 @@ from threading import Timer
 import paramiko
 import re
 
-from sqlalchemy import desc
-
 from apps import db, create_app
 from apps.models import ServerInfo, LatestServerInfo, ServerThreshold, AlertLog
 from apps.utils.record_log import record_alert_log
@@ -52,7 +50,7 @@ class Tool(object):
 
             # 服务器访问超时或者异常
             except Exception as e:
-
+                # self.close_ssh()
                 default_set = {
                     'cpu_rate': '--',
                     'mem_total': '--',
@@ -118,23 +116,21 @@ class Tool(object):
                     # logging.info(load_menu_err)
                     return load_menu_err
 
-                # self.close_ssh()
                 # 内存
                 total_mem = re.search('MemTotal:\s*(\d*).*?\n', mem_menu_out).group(1)
                 free_mem = re.search('MemFree:\s*(\d*).*?\n', mem_menu_out).group(1)
                 mem_used_rate = round((int(total_mem) - int(free_mem)) / int(total_mem) * 100, 1)
 
-                # CPU
                 # 'cpu_rate': '68.84'
                 cpu_free = re.search(r'[(\u5e73\u5747\u65f6\u95f4)|(Average)]:\s*(.*?)\n', cpu_menu_out2).group(1)
                 cpu_free = re.split('\s+', cpu_free)[-1]
+                cpu_free = round(100.00 - float(cpu_free), 2)
                 # 磁盘
                 # 'disk_used': '6.3G', 'disk_size': '76G', 'disk_use': '9%'
                 disk_line = re.split(r'\n', disk_menu_out)[-2]
                 disk_line_list = re.split('\s+', disk_line)
 
                 # 服务器负载
-                # print(load_menu_out)
                 load = re.search(r'load average:\s*(.*)\s*\n', load_menu_out).group(1)
                 load = re.split(r'\s*,\s*', load)
 
@@ -145,7 +141,6 @@ class Tool(object):
                     'mem_used_rate': mem_used_rate,
                     'disk_total': disk_line_list[1],
                     'disk_size': disk_line_list[2],
-                    # 'disk_used_rate': disk_line_list[-2][:-1],
                     'disk_used_rate': round(float(disk_line_list[2][:-1]) / float(disk_line_list[1][:-1]) * 100, 2),
                     'loadIn1Min': load[0],
                     'loadIn5Min': load[1],
