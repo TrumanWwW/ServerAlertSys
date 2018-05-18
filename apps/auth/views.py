@@ -28,7 +28,7 @@ def login():
             return redirect(request.args.get('next') or url_for('main.index'))
         else:
             flash({'errors': u'用户名或者密码错误'})
-            record_operation_log(operation=u'登入', module=u'用户', result=u'失败', user_id=user.id)
+            record_operation_log(operation=u'登入', module=u'用户', result=u'失败', user_id=None)
             return redirect(request.url)
 
     return render_template('auth/login.html', form=form, title='登录', auth={'url': '/register', 'word': '去注册'})

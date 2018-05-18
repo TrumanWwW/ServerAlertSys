@@ -17,6 +17,6 @@ migrate = Migrate(app, db)
 manager.add_command('db', MigrateCommand)
 
 if __name__ == '__main__':
-    from waitress import serve
-    serve(app, listen='0.0.0.0:5000')
-    # manager.run()
+    # from waitress import serve
+    # serve(app, listen='0.0.0.0:5000')
+    manager.run()
