@@ -49,15 +49,12 @@ def create_app(config_name):
     app.config.from_object(config_dict[config_name])
     app.app_context().push()
 
+	# 初始化db对象
+    # 作用域问题处理，在函数外创建db对象，提升作用域
+    # 某些对象需要外界调用. 可以延迟传参
     db.init_app(app)
     bootstrap.init_app(app)
     login_manager.init_app(app)
-
-    # 初始化db对象
-    # 作用域问题处理，在函数外创建db对象，提升作用域
-    # 某些对象需要外界调用. 可以延迟传参
-
-    # app.app_context().push()
 
     # 向app中添加自定义的路由转换器
     app.url_map.converters['re'] = RegexConverter

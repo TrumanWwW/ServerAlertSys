@@ -25456,3 +25456,975 @@ Traceback (most recent call last):
   File "D:\workspace\ServerAlertSysLite\apps\auth\views.py", line 31, in login
     record_operation_log(operation=u'登入', module=u'用户', result=u'失败', user_id=user.id)
 AttributeError: 'NoneType' object has no attribute 'id'
+2018-05-18 09:26:00,600 - ERROR - channel.py:341 - Exception when serving /login
+Traceback (most recent call last):
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\waitress\channel.py", line 338, in service
+    task.service()
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\waitress\task.py", line 169, in service
+    self.execute()
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\waitress\task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\ServerAlertSysLite\apps\auth\views.py", line 31, in login
+    record_operation_log(operation=u'登入', module=u'用户', result=u'失败', user_id=user.id)
+AttributeError: 'NoneType' object has no attribute 'id'
+2018-05-18 09:26:16,133 - ERROR - channel.py:341 - Exception when serving /login
+Traceback (most recent call last):
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\waitress\channel.py", line 338, in service
+    task.service()
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\waitress\task.py", line 169, in service
+    self.execute()
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\waitress\task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\ServerAlertSysLite\apps\auth\views.py", line 31, in login
+    record_operation_log(operation=u'登入', module=u'用户', result=u'失败', user_id=user.id)
+AttributeError: 'NoneType' object has no attribute 'id'
+2018-05-18 09:27:15,631 - ERROR - channel.py:341 - Exception when serving /login
+Traceback (most recent call last):
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\waitress\channel.py", line 338, in service
+    task.service()
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\waitress\task.py", line 169, in service
+    self.execute()
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\waitress\task.py", line 399, in execute
+    app_iter = self.channel.server.application(env, start_response)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\workspace\ServerAlertSysLite\apps\auth\views.py", line 31, in login
+    record_operation_log(operation=u'登入', module=u'用户', result=u'失败', user_id=user.id)
+AttributeError: 'NoneType' object has no attribute 'id'
+2018-05-18 09:27:42,476 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-18 09:29:01,288 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-18 09:30:25,513 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-18 09:31:21,919 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-18 09:42:29,819 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 - 
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 - 
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:42:29,819 - ERROR - transport.py:1685 - 
+2018-05-18 09:42:39,804 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 - 
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 - 
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:42:39,804 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:00,383 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:43:00,383 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:04,792 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:43:04,792 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:04,792 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:43:04,792 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:43:04,792 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:43:04,792 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:43:04,807 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:20,421 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:43:20,421 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:29,844 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:43:29,844 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:30,438 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:43:30,438 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:34,798 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:43:34,798 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:40,392 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:43:40,408 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:44,832 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:43:44,832 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:50,395 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 - 
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:43:50,395 - ERROR - transport.py:1685 - 
+2018-05-18 09:44:00,443 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 - 
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 - 
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:44:00,443 - ERROR - transport.py:1685 - 
+2018-05-18 09:44:05,429 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:44:05,429 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:44:05,429 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:44:05,429 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:44:05,429 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:44:05,429 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:44:05,429 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:44:05,429 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:44:05,444 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:44:05,444 - ERROR - transport.py:1685 - 
+2018-05-18 09:44:05,444 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:44:05,444 - ERROR - transport.py:1685 - 
+2018-05-18 09:44:05,444 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:44:05,444 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:44:05,444 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:44:05,444 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:44:05,444 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:44:05,444 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:44:05,444 - ERROR - transport.py:1685 - 
+2018-05-18 09:44:09,882 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:44:09,882 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:44:09,882 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:44:09,882 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:44:09,882 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:44:09,882 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:44:09,882 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:44:09,882 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:44:09,882 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:44:09,882 - ERROR - transport.py:1685 - 
+2018-05-18 09:44:09,882 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:44:09,882 - ERROR - transport.py:1685 - 
+2018-05-18 09:44:09,882 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:44:09,897 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:44:09,897 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:44:09,897 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:44:09,897 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:44:09,897 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:44:09,897 - ERROR - transport.py:1685 - 
+2018-05-18 09:44:10,413 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 - 
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 - 
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:44:10,413 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:31,128 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:53:31,144 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:40,596 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:53:40,596 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:53:40,596 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:53:40,596 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:53:40,596 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:53:40,596 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:53:40,596 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:53:40,596 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:53:40,596 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:53:40,611 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:40,611 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:53:40,611 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:40,611 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:53:40,611 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:53:40,611 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:53:40,611 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:53:40,611 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:53:40,611 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:53:40,611 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:41,096 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:53:41,096 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:53:41,096 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:53:41,096 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:53:41,096 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:53:41,096 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:53:41,096 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:53:41,111 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:53:41,111 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:53:41,111 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:41,111 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:53:41,111 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:41,111 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:53:41,111 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:53:41,111 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:53:41,111 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:53:41,111 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:53:41,111 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:53:41,111 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:55,623 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:53:55,625 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:53:55,626 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:53:55,626 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:53:55,627 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:53:55,629 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:53:55,630 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:53:55,631 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:53:55,632 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:53:55,633 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:55,637 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:53:55,637 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:55,638 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:53:55,639 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:53:55,639 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:53:55,639 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:53:55,639 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:53:55,640 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:53:55,640 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:56,163 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:53:56,163 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:53:56,164 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:53:56,164 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:53:56,164 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:53:56,165 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:53:56,165 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:53:56,165 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:53:56,165 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:53:56,166 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:56,166 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:53:56,166 - ERROR - transport.py:1685 - 
+2018-05-18 09:53:56,166 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:53:56,167 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:53:56,167 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:53:56,167 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:53:56,167 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:53:56,168 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:53:56,169 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:01,166 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:54:01,167 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:01,167 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:54:01,168 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:54:01,168 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:54:01,168 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:54:01,169 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:54:01,169 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:54:01,169 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:54:01,169 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:01,170 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:54:01,170 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:01,170 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:01,170 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:54:01,171 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:54:01,171 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:54:01,171 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:54:01,172 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:54:01,173 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:11,151 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:54:11,151 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:11,151 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:54:11,151 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:54:11,152 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:54:11,152 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:54:11,152 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:54:11,152 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:54:11,152 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:54:11,152 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:11,153 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:54:11,153 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:11,153 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:11,153 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:54:11,153 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:54:11,153 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:54:11,153 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:54:11,154 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:54:11,154 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:15,625 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:54:15,626 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:15,626 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:54:15,626 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:54:15,626 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:54:15,627 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:54:15,627 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:54:15,627 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:54:15,627 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:54:15,628 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:15,628 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:54:15,628 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:15,629 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:15,629 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:54:15,629 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:54:15,630 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:54:15,630 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:54:15,630 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:54:15,630 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:16,154 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:54:16,154 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:16,154 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:54:16,155 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:54:16,155 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:54:16,155 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:54:16,156 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:54:16,156 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:54:16,157 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:54:16,157 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:16,157 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:54:16,158 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:16,158 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:16,159 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:54:16,159 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:54:16,160 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:54:16,160 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:54:16,160 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:54:16,160 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:20,612 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:54:20,613 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:20,614 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:54:20,614 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:54:20,615 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:54:20,615 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:54:20,615 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:54:20,616 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:54:20,616 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:54:20,616 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:20,617 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:54:20,617 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:20,617 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:20,617 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:54:20,618 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:54:20,618 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:54:20,618 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:54:20,619 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:54:20,619 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:26,164 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:54:26,165 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:26,166 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:54:26,167 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:54:26,167 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:54:26,171 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:54:26,172 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:54:26,172 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:54:26,173 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:54:26,173 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:26,173 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:54:26,175 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:26,175 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:26,175 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:54:26,176 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:54:26,176 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:54:26,176 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:54:26,177 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:54:26,177 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:40,631 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 09:54:40,632 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:40,632 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 09:54:40,632 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 09:54:40,634 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 09:54:40,634 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 09:54:40,634 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 09:54:40,634 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 09:54:40,635 - ERROR - transport.py:1685 - EOFError
+2018-05-18 09:54:40,635 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:40,635 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 09:54:40,635 - ERROR - transport.py:1685 - 
+2018-05-18 09:54:40,636 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 09:54:40,637 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 09:54:40,637 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 09:54:40,637 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 09:54:40,637 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 09:54:40,637 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 09:54:40,638 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:06,740 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:11:06,740 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:06,740 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:11:06,740 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:11:06,740 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:11:06,756 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:12,147 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:11:12,147 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:12,147 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:11:12,147 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:11:12,147 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:11:12,147 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:11:12,147 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:11:12,147 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:11:12,147 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:11:12,147 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:12,162 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:11:12,162 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:12,162 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:12,162 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:11:12,162 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:11:12,162 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:11:12,162 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:11:12,162 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:11:12,162 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:16,740 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:11:16,741 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:16,741 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:11:16,741 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:11:16,741 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:11:16,742 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:11:16,742 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:11:16,742 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:11:16,742 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:11:16,742 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:16,742 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:11:16,742 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:16,743 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:16,743 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:11:16,743 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:11:16,743 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:11:16,743 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:11:16,743 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:11:16,743 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:21,758 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:11:21,759 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:21,760 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:11:21,760 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:11:21,761 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:11:21,762 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:11:21,762 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:11:21,763 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:11:21,763 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:11:21,764 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:21,764 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:11:21,765 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:21,767 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:21,767 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:11:21,776 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:11:21,776 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:11:21,777 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:11:21,780 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:11:21,780 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:22,249 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:11:22,249 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:22,249 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:11:22,249 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:11:22,249 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:11:22,249 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:11:22,249 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:11:22,249 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:11:22,249 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:11:22,265 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:22,265 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:11:22,265 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:22,265 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:22,265 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:11:22,265 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:11:22,265 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:11:22,265 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:11:22,265 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:11:22,265 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:27,224 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:11:27,225 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:27,226 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:11:27,226 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:11:27,227 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:11:27,227 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:11:27,228 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:11:27,230 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:11:27,232 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:11:27,232 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:27,233 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:11:27,234 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:27,236 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:27,238 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:11:27,238 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:11:27,243 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:11:27,244 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:11:27,246 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:11:27,251 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:31,768 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:11:31,768 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:31,768 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:11:31,768 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:11:31,768 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:11:31,768 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:11:31,768 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:11:31,768 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:11:31,784 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:11:31,784 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:31,784 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:11:31,784 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:31,784 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:31,784 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:11:31,784 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:11:31,784 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:11:31,784 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:11:31,784 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:11:31,784 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:37,207 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:11:37,208 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:37,208 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:11:37,208 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:11:37,208 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:11:37,208 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:11:37,208 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:11:37,209 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:11:37,209 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:11:37,209 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:37,209 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:11:37,209 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:37,209 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:37,210 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:11:37,210 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:11:37,210 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:11:37,210 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:11:37,210 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:11:37,210 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:41,771 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:11:41,771 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:46,812 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:11:46,814 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:46,814 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:11:46,818 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:11:46,819 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:11:46,819 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:11:46,820 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:11:46,821 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:11:46,821 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:11:46,821 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:46,822 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:11:46,822 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:46,823 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:46,825 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:11:46,826 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:11:46,832 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:11:46,833 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:11:46,834 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:11:46,835 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:56,805 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:11:56,806 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:56,806 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:11:56,806 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:11:56,806 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:11:56,806 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:11:56,807 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:11:56,807 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:11:56,807 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:11:56,807 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:56,807 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:11:56,807 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:56,807 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:56,808 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:11:56,808 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:11:56,808 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:11:56,808 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:11:56,808 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:11:56,808 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:57,264 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:11:57,265 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:57,266 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:11:57,266 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:11:57,267 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:11:57,267 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:11:57,268 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:11:57,268 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:11:57,268 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:11:57,269 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:57,269 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:11:57,270 - ERROR - transport.py:1685 - 
+2018-05-18 10:11:57,270 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:11:57,271 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:11:57,271 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:11:57,271 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:11:57,272 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:11:57,275 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:11:57,275 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:01,814 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:12:01,814 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:12:01,814 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:12:01,814 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:12:01,814 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:12:01,814 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:12:01,814 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:12:01,814 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:12:01,814 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:12:01,829 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:01,829 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:12:01,829 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:01,829 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:12:01,829 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:12:01,829 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:12:01,829 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:12:01,829 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:12:01,829 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:12:01,829 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:17,271 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:12:17,272 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:12:17,272 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:12:17,272 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:12:17,273 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:12:17,273 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:12:17,274 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:12:17,274 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:12:17,274 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:12:17,274 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:17,274 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:12:17,274 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:17,274 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:12:17,275 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:12:17,276 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:12:17,276 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:12:17,276 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:12:17,277 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:12:17,277 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:22,257 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:12:22,257 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:41,932 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:12:41,932 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:46,895 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:12:46,895 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:12:46,896 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:12:46,896 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:12:46,896 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:12:46,896 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:12:46,897 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:12:46,897 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:12:46,897 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:12:46,897 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:46,897 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:12:46,898 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:46,898 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:12:46,898 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:12:46,898 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:12:46,898 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:12:46,899 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:12:46,899 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:12:46,899 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:47,319 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-18 10:12:47,320 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:12:47,321 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-18 10:12:47,321 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-18 10:12:47,321 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-18 10:12:47,321 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-18 10:12:47,322 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-18 10:12:47,322 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-18 10:12:47,322 - ERROR - transport.py:1685 - EOFError
+2018-05-18 10:12:47,323 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:47,324 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-18 10:12:47,324 - ERROR - transport.py:1685 - 
+2018-05-18 10:12:47,326 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-18 10:12:47,326 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-18 10:12:47,327 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-18 10:12:47,328 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-18 10:12:47,328 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-18 10:12:47,329 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-18 10:12:47,330 - ERROR - transport.py:1685 - 
+2018-05-24 14:06:04,369 - WARNING - _internal.py:88 -  * Debugger is active!
+2018-05-24 14:20:43,528 - ERROR - transport.py:1687 - Exception: Error reading SSH protocol banner
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2044, in _check_banner
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 -     buf = self.packetizer.readline(timeout)
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 353, in readline
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 -     buf += self._read_timeout(timeout)
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\packet.py", line 542, in _read_timeout
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 -     raise EOFError()
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 - EOFError
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 - 
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 - During handling of the above exception, another exception occurred:
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 - 
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 - Traceback (most recent call last):
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 1893, in run
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 -     self._check_banner()
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 -   File "D:\workspace\ServerAlertSysLite\venv\lib\site-packages\paramiko\transport.py", line 2049, in _check_banner
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 -     'Error reading SSH protocol banner' + str(e)
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 - paramiko.ssh_exception.SSHException: Error reading SSH protocol banner
+2018-05-24 14:20:43,528 - ERROR - transport.py:1685 - 
